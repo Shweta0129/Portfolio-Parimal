@@ -1,0 +1,111 @@
+C A R E E R  S U M M A R Y
+S K I L L SAI/ML and Data Analytics professional skilled in building machine learning models,
+developing RAG systems, implementing agentic AI workflows, and creating
+analytical dashboards. Experienced in computer vision, multimodal AI, SQL
+automation, and end-to-end data processing. Strong foundation in Python, SQL,
+Power BI, and ML pipelines with hands-on client interaction, product
+demonstrations, and cross-functional collaboration. Detail-oriented, adaptable, and
+capable of contributing across data engineering, machine learning, and analytical
+domains.
+P A R I M A L  D O N G A R E
+P R O J E C T S
+    Data Science certification by Acciojob 
+gaining hands-on experience in Advanced Excel, Python, NumPy,
+Pandas, Power BI, SQL (MySQL & PostgreSQL), dashboard creation,
+and data analysis.C E R T I F I C A T I O N S
+     Tata Data Visualization on Forage 
+demonstrating skills in data cleanup, analysis, and dashboard creation
+to deliver executive-ready insights and visual storytelling for strategic
+decision-making.E X P E R I E N C E
+Data Analyst Intern at Onekaizen Global Private Limited 
+Created impactful dashboards and visualizations using Power BI for data-
+driven decision-making.
+Prepared client leadership meeting questions and delivered concise
+presentations.
+Synthesized complex data into actionable visuals for strategic analysis.
+     AI / Machine Learning  
+Deep Learning, CNNs, NLP , Embeddings, V ector
+Databases, RA G Systems, Agentic AI, Multi-Agent
+Workflows, Multimodals, Computer Vision, LLM
+Integr ation, Model Training & E valuation, Pinecone   
+Programming & Tools
+Python, NumP y, Pandas, Scikit-learn, TensorFlow/K eras,
+OpenCV , SQL (MySQL, P ostgr eSQL, Mssql), P ower BI
+(DAX, Modeling), Ex cel (P ower Quer y, Pivots), Str eamlit,
+Git, Jir a, Lanchain
+Data & A nalytics
+Data Cleaning, Data Transformation, E TL, ED A,
+Dashboar d De velopment, KPI Analysis, Repor ting, Data
+Modeling, Business Insights
+Professional Skills
+Client Communication, Pr oduct Demos, Pr oblem
+Solving, Requir ement Gathering, Team Collabor ation,
+Presentation Skills, Analytical Thinking
+        Citi Wealth Job Simulation on Forage
+ Completed Citi Wealth job simulation by designing a tax-efficient,
+moderately risky investment portfolio and delivering a client-focused
+presentation to communicate strategy effectively.AI/ML Intern — Trust Fintech Ltd.
+Undergraduate
+MIT ADT University, Pune
+2020-2024
+Information Technology specialization in Data Analytics  
+12th Standard
+ST. PAUL JUNIOR COLLEGE, Nagpur
+2020
+10th Standard
+ST. CLARET ENGLISH MEDIUM SCHOOL, 
+Chandrapur
+2018Built RAG pipelines with vector embeddings for intelligent document retrieval
+and contextual responses.
+Designed agentic AI systems with multi-agent workflows for automated
+analysis and SQL generation.
+Contributed to Knowledge AI Engine and Database AI Engine, improving
+document parsing and NL-to-SQL automation.
+Analyzed financial datasets for feature extraction, insights, and reporting.
+Engaged in client demos, requirement discussions, and POCs with global
+stakeholders.
+Developed CNN models for Aadhaar/PAN fraud detection using computer
+vision and deep learning.
+Document Fraud Detection Using CNNs
+Developed a deep-learning model using CNNs and OpenCV t o classify genuine vs
+fraudulent Aadhaar and P AN car ds. Cr eated and cur ated datasets fr om multiple
+sour ces, applied image pr eprocessing, and tr ained models for high-accur acy
+document v erification.
+Knowledge AI Engine — Document Intelligence (RAG System)
+Built and enhanced a document intelligence system s upporting large-scale PDF
+parsing, retrieval, and summarization. Implemented RAG pipelines using vector
+embeddings for context-aware search, question answering, and automated
+knowledge extraction.
+Database AI Engine — SQL Automation & Schema Intelligence
+Developed schema understanding and natural-language-to-SQL features for
+automated query generation.  Built multi-agent  workflows to parse documents,
+analyze schemas, extract d ata, and generat e accurate SQL queries with minimal
+human intervention.
+Northwind Traders Business Insights (Data Analytics + BI)
+Performed multi-table analysis using advanced SQL (CTEs, window functions, joins)
+and built interactive dashboards in Power BI/Excel. Delivered insights on customer
+segmentation, sales trends, product performance, employee metrics, and supplier
+distribution.
+Sahi योग  — Finance Recommendation Platform
+Led the development of a Streamlit-based platform that matches small businesses
+with suitable financing options. Designed algorithms, integrated SQL pipelines, and
+delivered a functional web application that improved financial option discovery for
+users.
+Dynamic Retail Dashboard — Excel
+Built an interactive retail dashboard using Excel, Power Query, and Pivot Tables for
+real-time sales analytics. Analyzed KPIs including Total Sales, Profit, Orders,
+Quantity, and Profit Margin, and created dynamic visualizations with slicers for user-
+driven exploration. Delivered insights such as return analysis, segment-wise
+performance, and top/bottom subcategory trends.Coordinated a successful Virtual reality gaming
+event at Persona Fest 2023
+Represented my university in discus throw, a State
+Level Inter University Sports Meet, PERA Premier
+Championship 2023
+Technically assisted at Savitribai Phule Pune
+University for making Guinness Book of World
+Record of India's largest digital album. (Aug 2022)A C H I E V E M E N T S
+E D U C A T I O N
+(+91) 7776878224
+parimaldongareabc@gmail.com
+https://www.linkedin.com/in/parimal-dongare-479a5b230/
+https://github.com/Parimal108(2024 – Pr esent | Nagpur)
