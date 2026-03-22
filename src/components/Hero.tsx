@@ -32,25 +32,25 @@ const Hero = () => {
       <div className="absolute inset-0 pointer-events-none z-0">
         <motion.img 
           style={{ y: shapesY1 }} 
-          src="/orange_cube.png" 
+          src={`${import.meta.env.BASE_URL}orange_cube.png`} 
           className="absolute top-[10%] left-[10%] w-48 md:w-64 opacity-90 animate-float blend-multiply" 
           alt="3D Cube" 
         />
         <motion.img 
           style={{ y: shapesY2 }} 
-          src="/purple_sphere.png" 
+          src={`${import.meta.env.BASE_URL}purple_sphere.png`} 
           className="absolute top-[20%] right-[10%] w-56 md:w-72 opacity-95 animate-float animation-delay-2000 blend-multiply" 
           alt="3D Sphere" 
         />
         <motion.img 
           style={{ y: shapesY1 }} 
-          src="/blue_cylinder.png" 
+          src={`${import.meta.env.BASE_URL}blue_cylinder.png`} 
           className="absolute bottom-[10%] left-[20%] w-40 md:w-56 opacity-90 animate-float animation-delay-4000 blend-multiply" 
           alt="3D Cylinder" 
         />
         <motion.img 
           style={{ y: shapesY2 }} 
-          src="/green_star.png" 
+          src={`${import.meta.env.BASE_URL}green_star.png`} 
           className="absolute bottom-[20%] right-[15%] w-44 md:w-60 opacity-90 animate-float-slow animation-delay-1000 blend-multiply" 
           alt="3D Star" 
         />
@@ -74,7 +74,7 @@ const Hero = () => {
           className="relative w-72 h-72 md:w-96 md:h-96 rounded-[3rem] md:rounded-[4rem] group z-20 hover:scale-[1.02] transition-transform duration-500 shadow-2xl bg-white overflow-hidden"
         >
           <img 
-            src="/profile.jpg" 
+            src={`${import.meta.env.BASE_URL}profile.jpg`} 
             alt={personalData.name} 
             className="w-full h-full object-cover object-top opacity-100 group-hover:scale-105 transition-transform duration-700" 
           />
@@ -92,7 +92,7 @@ const Hero = () => {
               <a href="#projects" className="bg-[#ff5a1f] text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-[#e04a15] transition-colors shadow-xl shadow-[#ff5a1f]/30 flex items-center gap-2">
                 Discover Projects <ArrowRight className="w-5 h-5"/>
               </a>
-              <a href="/Parimal_Dongare_resume (1) (1).pdf" download className="bg-gray-100 text-textMain px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-200 transition-colors flex items-center gap-2">
+              <a href={`${import.meta.env.BASE_URL}Parimal_Dongare_resume (1) (1).pdf`} download className="bg-gray-100 text-textMain px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-200 transition-colors flex items-center gap-2">
                 <Download className="w-5 h-5"/> Get Resume
               </a>
             </div>
