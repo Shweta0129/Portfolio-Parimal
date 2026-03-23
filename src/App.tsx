@@ -37,13 +37,15 @@ function App() {
         <div className="absolute top-[40%] right-[-10%] w-[30%] h-[30%] bg-secondary/10 blur-[120px] rounded-full mix-blend-screen mix-blend-lighten animate-glow" />
       </div>
 
-      <main className="max-w-7xl mx-auto px-6 lg:pb-32 space-y-32 lg:space-y-48 overflow-x-hidden">
+      <main className="w-full overflow-x-hidden relative">
         <Hero />
-        <div id="about"><About /></div>
-        <div id="skills"><Skills /></div>
-        <div id="experience"><Experience /></div>
-        <div id="projects"><Projects /></div>
-        <div id="contact"><Connect /></div>
+        <div className="max-w-7xl mx-auto px-6 py-20 lg:py-32 space-y-32 lg:space-y-48">
+          <div id="about"><About /></div>
+          <div id="skills"><Skills /></div>
+          <div id="experience"><Experience /></div>
+          <div id="projects"><Projects /></div>
+          <div id="contact"><Connect /></div>
+        </div>
       </main>
     </div>
   );
