@@ -33,46 +33,48 @@ const Navbar = () => {
 
   return (
     <>
-      <motion.nav
-        initial={{ y: -50, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        className="fixed top-6 left-1/2 -translate-x-1/2 z-[60] w-[90%] md:w-auto flex items-center justify-between bg-white/80 backdrop-blur-3xl border border-gray-200 p-2 md:pl-2 md:pr-2 rounded-full shadow-[0_10px_40px_rgba(0,0,0,0.08)]"
-      >
-        <div className="md:hidden pl-4 font-black text-xl text-primary tracking-tighter">PD</div>
-        
-        {/* Desktop Nav */}
-        <div className="hidden md:flex items-center">
-          {navItems.map((item) => {
-            const isActive = activeSection === item.toLowerCase();
-            return (
-              <a
-                key={item}
-                href={`#${item.toLowerCase()}`}
-                className={`relative px-5 py-2.5 text-sm font-semibold transition-all ${
-                  isActive ? 'text-primary' : 'text-textMuted hover:text-textMain hover:bg-gray-100'
-                } rounded-full`}
-              >
-                {isActive && (
-                  <motion.div
-                    layoutId="activeTab"
-                    className="absolute inset-0 bg-primary/10 rounded-full"
-                    transition={{ type: 'spring', bounce: 0.2, duration: 0.6 }}
-                  />
-                )}
-                <span className="relative z-10">{item}</span>
-              </a>
-            );
-          })}
-        </div>
-
-        {/* Mobile Toggle */}
-        <button
-          className="md:hidden p-2 text-textMain relative z-[60] mr-2"
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
+      <div className="fixed top-6 left-0 w-full z-[60] flex justify-center px-4 pointer-events-none">
+        <motion.nav
+          initial={{ y: -50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          className="w-full md:w-auto flex items-center justify-between bg-white/95 backdrop-blur-3xl border border-gray-200 p-2 md:pl-2 md:pr-2 rounded-full shadow-xl pointer-events-auto relative max-w-7xl"
         >
-          {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-        </button>
-      </motion.nav>
+          <div className="md:hidden pl-4 font-black text-xl text-primary tracking-tighter">PD</div>
+          
+          {/* Desktop Nav */}
+          <div className="hidden md:flex items-center">
+            {navItems.map((item) => {
+              const isActive = activeSection === item.toLowerCase();
+              return (
+                <a
+                  key={item}
+                  href={`#${item.toLowerCase()}`}
+                  className={`relative px-5 py-2.5 text-sm font-semibold transition-all ${
+                    isActive ? 'text-primary' : 'text-textMuted hover:text-textMain hover:bg-gray-100'
+                  } rounded-full`}
+                >
+                  {isActive && (
+                    <motion.div
+                      layoutId="activeTab"
+                      className="absolute inset-0 bg-primary/10 rounded-full"
+                      transition={{ type: 'spring', bounce: 0.2, duration: 0.6 }}
+                    />
+                  )}
+                  <span className="relative z-10">{item}</span>
+                </a>
+              );
+            })}
+          </div>
+
+          {/* Mobile Toggle */}
+          <button
+            className="md:hidden p-2 text-textMain relative z-[60] mr-2"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          >
+            {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          </button>
+        </motion.nav>
+      </div>
 
       {/* Mobile Menu Overlay */}
       <AnimatePresence>
